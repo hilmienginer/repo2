@@ -60,3 +60,22 @@ Author: MPG13 & 23 Aaron <support@23aaron.com>
 Icon: https://img.chariz.cloud/icon/flashback/icon@3x.png
 Depiction: https://chariz.com/get/flashback
 
+Package: xyz.turannul.testpack
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Work in Progress
+Maintainer: turannul
+Depends:
+Filename: ./debians/xyz.turannul.testpack_1.0.0_iphoneos-arm.deb
+Size: 726
+MD5sum: ad45c42efaae75d9081c548621b88742
+SHA1: 1493af837d7037a3e64f2bf333afff1fb96423aa
+SHA256: 1d4231c889227edd74aa8becdd12f3cfbe5446b812e4577dd68e873149b476ba
+SHA512: 86fbab7d77252ee552ff77b4b73da19b1506e7fc9157974c64ac08ee10c0b03fc90d9c53b3f6c9d3e0916eaf88b13dbb5e6d0de7c444e2d7f62068beab102da8
+Description: N/A
+Name: Test Pack
+Author: turannul
+Depiction: N/A
+SileoDepiction: N/A
+Icon: N/A
+
