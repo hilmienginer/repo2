@@ -60,20 +60,3 @@ Author: MPG13 & 23 Aaron <support@23aaron.com>
 Icon: https://img.chariz.cloud/icon/flashback/icon@3x.png
 Depiction: https://chariz.com/get/flashback
 
-Package: sileoturkiye.tweakcleaner
-Architecture: iphoneos-arm
-Version: 14.9c
-Section: Uygulama
-Maintainer: Önder Azazi <onderazazi@hotmail.com>
-Depends: firmware (>= 13.0), firmware (<= 15.0), cy+model.iphone, bash, rsync, gzip, dpkg, coreutils, ncurses, system-cmds, openssh
-Filename: ./debians/sileoturkiye.tweakcleaner_14.9c_iphoneos-arm.deb
-Size: 4717608
-MD5sum: bcf821df6442b9fbb8fef6b16af0bf95
-SHA1: e0dd7d93fb2c2213b08d97bc2d40379f40f1481d
-SHA256: cc6b53b62f65fb5c9a0a3495c4a2ba0fb0997144cf91b6da98b0e2cad9beb032
-SHA512: 23fc81b1fb945b418957590224f96129160dbb494f51ee876b3772637d37d8c34aa6a508b2e432f1820493f962db9ac1c4019320631fafafdffc6d83a3775a75
-Description: Returns the device to its original JB state.
-Name: Tweak Cleaner PRO
-Author: Önder Azazi <onderazazi@hotmail.com>
-Icon: file:///TweakCleaner.app/AppIcon60x60@2x.png
-
