@@ -60,3 +60,27 @@ Description:
 Name: turannul
 Author:
 
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36
+Priority: required
+Section: Packaging
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Provides: bigbossbetarepo, cydia-sources
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>= 5.0)
+Depends: cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./debians/xyz.turannul.cydia_1.1.36_iphoneos-arm.deb
+Size: 8928456
+MD5sum: 9cdd0e5d72e5907be9a252b9e153fa93
+SHA1: 27735223558145b54ffe6bfc5e28cb6fd950a796
+SHA256: bbec5ad3e63afdba3c532dff865a9d0da8663965edeb53c7eaee989badd758f8
+SHA512: 570f6363abd24e97ce6614d46c780328241b2d9519b56b9a5dbb0c638d2998a448112c92cfcb6db76a8e48fdfd9005f107be4e42fb779067aa51e3a17d2fd00a
+Description: Classic Icon removed. DO NOT INSTALL ON TAURINE ODYSSEY.
+Tag: purpose::uikit, cydia::essential, role::enduser
+Name: Cydia Installer (Old Icon)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: https://turannul.github.io/home/resour ces/cydia.png
+
