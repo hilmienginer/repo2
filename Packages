@@ -1,0 +1,46 @@
+Package: com.ichitaso.iconanus
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Tweaks
+Maintainer: Packix
+Installed-Size: 136
+Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix
+Pre-Depends: firmware (>= 12.0)
+Depends: mobilesubstrate
+Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix
+Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix
+Filename: ./debians/com.ichitaso.iconanus_1.0.3_iphoneos-arm.deb
+Size: 8340
+MD5sum: dbdbc51686c904dacc57145f9ed96811
+SHA1: c88fdcaebef48280218638b591eec0e63b7e8095
+SHA256: 83ac9bf97b961cb17c7957e89cdc7eacd1a70a162c792ef17ae7b2572ce70773
+SHA512: 5af71c03dd86c3c94fcf1aacb886ce793f6f299808188f67031877b0e9689edfac9dabd2bf81876a2dc39b9442fe93063d65951d4ba8208951600a897909faef
+Homepage: https://ichitaso.com/
+Description: Preserve custom icon layouts by Springboard Crash or reboots etc
+Tag: purpose::extension, compatible::ios13, compatible::ios14
+Author: ichitaso
+Name: IconAnus
+Depiction: https://cydia.ichitaso.com/depiction/iconanus.html
+dev: ichitaso
+
+Package: com.mpg13.flashback
+Architecture: iphoneos-arm
+Version: 4.1
+Section: Tweaks
+Maintainer: MPG13 & 23 Aaron <support@23aaron.com>
+Installed-Size: 4540
+Depends: mobilesubstrate,firmware (>= 12.0) | com.chpwn.iconsupport, firmware (<< 12.0) | com.ichitaso.iconanus,ldid
+Conflicts: com.mpg13.FlashBackfree
+Filename: ./debians/com.mpg13.flashback_4.1_iphoneos-arm.deb
+Size: 2465032
+MD5sum: c394d62121f9cd32397acb57ed843d2c
+SHA1: 976edf1fe36d0f1bacc3278c6f59d80eb1a42e94
+SHA256: 354019cac27753d71e016f25159a509287027f57c34cb038207da0ce6e779d68
+SHA512: 3860726e76525c81e63660e15bc4ec7d4dab22630dfbac35e2ff21a50afadd9f66ed9034001defd9d44536ca48284a99cbce5bef88300fdabc0deca0ca15b7ca
+Description: Backup your style in style.
+Tag: compatible_min::ios9.0
+Name: FlashBack
+Author: MPG13 & 23 Aaron <support@23aaron.com>
+Icon: https://img.chariz.cloud/icon/flashback/icon@3x.png
+Depiction: https://chariz.com/get/flashback
+
