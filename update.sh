@@ -1,2 +1,0 @@
-./updaterepo.sh && ./sign.sh
-
